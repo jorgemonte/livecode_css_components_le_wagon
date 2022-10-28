@@ -1,0 +1,50 @@
+/* --- Fonts --- */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* --- Components design --- */
+@import url("components/container.css");
+@import url("components/cards.css");
+@import url("components/button.css");
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+}
+
+.main-section{
+  background: pink;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(images/bg-body.jpg);
+  background-size: cover;
+  background-position: center;
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
+

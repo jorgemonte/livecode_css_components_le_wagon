@@ -1,0 +1,71 @@
+.card-product{
+  background: white;
+  width: 700px;
+  margin: auto;
+  padding: 30px 16px;
+  border-radius: 8px;
+}
+
+.card-product-top{
+  border: 4px solid gold;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.stars i{
+  color: gold;
+}
+
+.card-product-top-image{
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  background-position: center;
+  /* height: 200px; */
+  border: 5px solid cyan;
+  width: 50%;
+}
+
+.card-product-info{
+  border: 5px solid magenta;
+  width: 50%;
+}
+
+.stars{
+  border: 2px solid orange;
+  margin-bottom: 20px;
+}
+
+.card-product-middle{
+  border: 4px solid green;
+  margin-bottom: 20px;
+  background-image: url(https://source.unsplash.com/random);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-product-bottom{
+  border: 4px solid blue;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+}
+
+.card-product-bottom img{
+  /* width: calc(100% / 3); */
+  width: 30%;
+  height: 150px;
+  object-fit: cover;
+}
+
+*{
+  border: none !important;;
+}
+
+
+
+
+
+
+
